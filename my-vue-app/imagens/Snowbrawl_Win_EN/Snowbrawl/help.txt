@@ -1,0 +1,23 @@
+-------------------
+CONTROLS - SNO2PLAY
+-------------------
+
+Movement:
+
+     +---+
+     | R |
+ +---+---+---+
+ | D | F | G | 
+ +---+---+---+
+
+Action Key: A
+
+-------------------
+Colors Look Screwy?
+-------------------
+
+Possible solution:
+
+Right-click your desktop and change your color-mode to 256 colors.
+
+Then run the game again.
