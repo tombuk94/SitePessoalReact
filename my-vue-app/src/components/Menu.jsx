@@ -19,6 +19,9 @@ export default function Menu() {
         <li className="menu-item" data-aos="fade-right" data-aos-delay="500">
           <a href="#contact">Contact</a>
         </li>
+        <li className="menu-item" data-aos="fade-right" data-aos-delay="500">
+          <a href="#contact">AI Test</a>
+        </li>
       </ul>
     </div>
     

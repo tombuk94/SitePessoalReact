@@ -10,8 +10,10 @@ import MenuMobile from './components/MenuMobile.jsx';
 import StickyMenu from './components/StickyMenu.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
+import ChatAI from './components/ChatAI.jsx';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
 
 function App() {
   const [showSticky, setShowSticky] = useState(false);
@@ -50,7 +52,7 @@ function App() {
       <Experience />
       <Abilities />
       <Projects />
-      <Contact />
+      <Contact />      
     </>
   );
 }

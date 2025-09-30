@@ -28,6 +28,7 @@ export default function Abilities() {
                 { skill: 'PHP', stars: 4 },
                 { skill: 'XML', stars: 4 },
                 { skill: 'jQuery', stars: 4 },
+                { skill: 'React', stars: 4 },
               ].map(({ skill, stars }) => (
                 <li key={skill}>
                   <span className="skill">{skill}</span>{' '}
@@ -51,6 +52,7 @@ export default function Abilities() {
                 { skill: 'UML', stars: 4 },
                 { skill: 'WordPress', stars: 4 },
                 { skill: 'MVC Pattern', stars: 3 },
+                { skill: 'Node', stars: 3 },
               ].map(({ skill, stars }) => (
                 <li key={skill}>
                   <span className="skill">{skill}</span>{' '}

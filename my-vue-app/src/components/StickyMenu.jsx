@@ -10,11 +10,7 @@ export default function StickyMenu() {
     const menu = menuRef.current;
     if (!menu) return;
 
-    const profile = document.getElementById('a');
-    const experiences = document.getElementById('b');
-    const abilities = document.getElementById('c');
-    const projects = document.getElementById('d');
-    const contact = document.getElementById('e');
+   
 
     const positions = {
       profile: document.getElementById('profile')?.offsetTop || 0,
@@ -134,6 +130,20 @@ export default function StickyMenu() {
         >
           <a href="#contact" style={{ color: 'white', textDecoration: 'none' }}>
             Contact
+          </a>
+        </li>
+        <li
+          id="e"
+          style={{
+            padding: '30px 0',
+            fontSize: 20,
+            fontWeight: 500,
+            backgroundColor: activeSection === 'contact' ? '#466b6e' : '#222222',
+            cursor: 'pointer',
+          }}
+        >
+          <a href="#AIChat" style={{ color: 'white', textDecoration: 'none' }}>
+            AI Chat
           </a>
         </li>
       </ul>
