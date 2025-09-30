@@ -132,20 +132,6 @@ export default function StickyMenu() {
             Contact
           </a>
         </li>
-        <li
-          id="e"
-          style={{
-            padding: '30px 0',
-            fontSize: 20,
-            fontWeight: 500,
-            backgroundColor: activeSection === 'contact' ? '#466b6e' : '#222222',
-            cursor: 'pointer',
-          }}
-        >
-          <a href="#AIChat" style={{ color: 'white', textDecoration: 'none' }}>
-            AI Chat
-          </a>
-        </li>
       </ul>
     </div>
   );
