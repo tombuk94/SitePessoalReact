@@ -1,5 +1,6 @@
 html , #root{
     scroll-behavior: smooth!Important;
+    overflow-x: hidden;
     
 }
 @media (min-width: 1400px) {
