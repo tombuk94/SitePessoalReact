@@ -20,8 +20,20 @@ export default function Projects() {
           </a>
         </div>
 
+          <div className="row" data-aos="zoom-in">
+          <a href="https://tomasbuk.infinityfreeapp.com/Evoluservices/saudeservice-site/" target="_blank" rel="noopener noreferrer">
+            <img src="imagens/SaudeService.png" className="box" alt="Projeto Marcela" />
+          </a>
+        </div>
+
+           <div className="row" data-aos="zoom-in">
+          <a href="https://tomasbuk.infinityfreeapp.com/Evoluservices/evo-site/" target="_blank" rel="noopener noreferrer">
+            <img src="imagens/EvoSite.png" className="box" alt="Projeto Marcela" />
+          </a>
+        </div>
+
         <div className="row" data-aos="zoom-in">
-          <a href="InstitutoCerebro" target="_blank" rel="noopener noreferrer">
+          <a href="https://institutocerebro.infinityfreeapp.com/index.php" target="_blank" rel="noopener noreferrer">
             <img src="imagens/projeto-marcela.png" className="box" alt="Projeto Marcela" />
           </a>
         </div>
@@ -30,8 +42,15 @@ export default function Projects() {
         <h1 data-aos="fade-down">Landing Pages</h1>
 
         <div className="row" data-aos="zoom-in">
-          <a href="https://finpet.com.br/MetaAzul/" target="_blank" rel="noopener noreferrer">
+          <a href="https://institutocerebro.infinityfreeapp.com/MetaAzul/" target="_blank" rel="noopener noreferrer">
             <img src="imagens/metaazul.png" className="box" alt="MetaAzul" />
+          </a>
+        </div>
+
+
+        <div className="row" data-aos="zoom-in">
+          <a href="https://institutocerebro.infinityfreeapp.com/VetUp/" target="_blank" rel="noopener noreferrer">
+            <img src="imagens/VetUp.png" className="box" alt="Ciosp" />
           </a>
         </div>
 
@@ -42,7 +61,7 @@ export default function Projects() {
         </div>
 
         <div className="row" data-aos="zoom-in">
-          <a href="https://saudeservice.com.br/landing-ciosp" target="_blank" rel="noopener noreferrer">
+          <a href="https://tomasbuk.infinityfreeapp.com/Evoluservices/saudeservice-site/landing-ciosp.php" target="_blank" rel="noopener noreferrer">
             <img src="imagens/ciosp.png" className="box" alt="Ciosp" />
           </a>
         </div>
