@@ -34,6 +34,7 @@ export default function MobileMenu() {
           <li><a href="#profile" onClick={() => setOpen(false)}>Profile</a></li>
           <li><a href="#experiences" onClick={() => setOpen(false)}>Experiences</a></li>
           <li><a href="#abilities" onClick={() => setOpen(false)}>Abilities</a></li>
+          <li><a href="#ClarizenProjects" onClick={() => setOpen(false)}>Clarizen Projects</a></li>
           <li><a href="#projects" onClick={() => setOpen(false)}>Projects</a></li>
           <li><a href="#contact" onClick={() => setOpen(false)}>Contact</a></li>
         </ul>

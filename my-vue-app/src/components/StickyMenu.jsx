@@ -16,8 +16,9 @@ export default function StickyMenu() {
       profile: document.getElementById('profile')?.offsetTop || 0,
       experiences: document.getElementById('experiences')?.offsetTop || 0,
       abilities: document.getElementById('abilities')?.offsetTop || 0,
+      ClarizenProjects: document.getElementById('ClarizenProjects')?.offsetTop || 0,
       projects: document.getElementById('projects')?.offsetTop || 0,
-      contact: document.getElementById('contact')?.offsetTop || 0,
+      contact: document.getElementById('contact')?.offsetTop || 0
     };
 
     const menuTopPosition = menu.offsetTop;
@@ -36,9 +37,10 @@ export default function StickyMenu() {
       // Active section logic
       if (scrollY >= positions.contact - 600) setActiveSection('contact');
       else if (scrollY >= positions.projects) setActiveSection('projects');
+      else if (scrollY >= positions.ClarizenProjects) setActiveSection('ClarizenProjects');
       else if (scrollY >= positions.abilities) setActiveSection('abilities');
       else if (scrollY >= positions.experiences) setActiveSection('experiences');
-      else if (scrollY >= positions.profile) setActiveSection('profile');
+      else if (scrollY >= positions.profile) setActiveSection('profile');      
       else setActiveSection(null);
     }
 
@@ -110,6 +112,20 @@ export default function StickyMenu() {
             padding: '30px 0',
             fontSize: 20,
             fontWeight: 500,
+            backgroundColor: activeSection === 'ClarizenProjects' ? '#466b6e' : '#222222',
+            cursor: 'pointer',
+          }}
+        >
+          <a href="#ClarizenProjects" style={{ color: 'white', textDecoration: 'none' }}>
+            Clarizen Projects
+          </a>
+        </li>
+        <li
+          id="e"
+          style={{
+            padding: '30px 0',
+            fontSize: 20,
+            fontWeight: 500,
             backgroundColor: activeSection === 'projects' ? '#466b6e' : '#222222',
             cursor: 'pointer',
           }}
@@ -119,7 +135,7 @@ export default function StickyMenu() {
           </a>
         </li>
         <li
-          id="e"
+          id="f"
           style={{
             padding: '30px 0',
             fontSize: 20,

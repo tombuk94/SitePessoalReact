@@ -17,7 +17,7 @@ export default function Projects() {
       <div className="container">
 <hr data-aos="zoom-in" data-aos-delay="300" />
    <ul className="list-disc list-inside text-gray-700 space-y-2 mb-12">
-    <img id="Clarizen" src='public/imagens/AW.png'></img>
+    <img id="Clarizen" src='imagens/AW.png'></img>
           <li><strong>Project Kickoff:</strong> Held kickoff meeting with client stakeholders, gathered high-level requirements, aligned roles and responsibilities, and delivered the Kickoff Document.</li>
           <li><strong>Project Schedule Creation in Clarizen:</strong> Built detailed project schedule within Clarizen, included weekly client meetings to review workflows and clarify processes, and presented schedule as official project guide.</li>
           <li><strong>Data Migration:</strong> Performed data migration using Clarizen Data Loader or API, ensuring accurate transfer of legacy data into the new system.</li>

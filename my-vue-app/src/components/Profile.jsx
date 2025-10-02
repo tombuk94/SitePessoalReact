@@ -52,6 +52,14 @@ export default function Profile() {
               <b>Location:</b><br />
               São Paulo, Brazil
             </p>
+            <p>
+            <b>GitHub</b><br />
+              <a href='https://github.com/tombuk94' target='blank'>https://github.com/tombuk94</a>
+            </p>
+             <p>
+            <b>Linkedin</b><br />
+              <a href='www.linkedin.com/in/tomasbukaraujo' target='blank'>www.linkedin.com/in/tomasbukaraujo</a>
+            </p>
           </div>
         </div>
       </div>

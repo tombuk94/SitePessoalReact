@@ -13,15 +13,18 @@ export default function Menu() {
         <li className="menu-item" data-aos="fade-right" data-aos-delay="300">
           <a href="#abilities">Abilities</a>
         </li>
+        <li className="menu-item" data-aos="fade-right" data-aos-delay="300">
+          <a href="#ClarizenProjects">Clarizen Projects</a>
+        </li>
         <li className="menu-item" data-aos="fade-right" data-aos-delay="400">
-          <a href="#projects">Projects</a>
+          <a href="#projects">Web Projects</a>
+        </li>
+        <li className="menu-item" data-aos="fade-right" data-aos-delay="400">
+          <a href="#projects">Landing Pages</a>
         </li>
         <li className="menu-item" data-aos="fade-right" data-aos-delay="500">
           <a href="#contact">Contact</a>
-        </li>
-        <li className="menu-item" data-aos="fade-right" data-aos-delay="500">
-          <a href="#contact">AI Test</a>
-        </li>
+        </li>       
       </ul>
     </div>
     
