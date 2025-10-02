@@ -41,7 +41,7 @@ export default function Experiences() {
               <img src="imagens/mack.png" id="logo-mack" alt="Mackenzie University Logo" />{' '}
               Mackenzie University
             </h4>
-            <p className="left">End preview: 06/21</p>
+            <p className="left">2015-2021</p>
           </div>
         </div>
 
@@ -66,6 +66,16 @@ export default function Experiences() {
             <p className="left">09/2019 - 04/2020</p>
           </div>
         </div>
+        {/* Alura */}
+            <div className="row" data-aos="fade-right" data-aos-delay="900">
+          <div className="col-md-6 offset-md-2 col-12">
+            <b>Career Front-end React Development</b>
+          </div>
+          <div className="col-md-4 col-12">
+            <h4>Alura</h4>
+            <p className="left">In course</p>
+          </div>
+        </div>
 
         <hr data-aos="zoom-in" data-aos-delay="1000" />
 
@@ -84,9 +94,9 @@ export default function Experiences() {
           <div className="col-md-8 col-12">
             <b>Consultant and Developer</b>
             <p className="left">
-              Working as Consultant and Developer, I was responsible for creating new project
-              developments on the Clarizen platform from Planview, providing support and consultancy
-              in project management.
+              Consultant and Developer at TWRT (Planview Partner), leading end-to-end implementations of AdaptiveWork (Clarizen) for enterprise clients across Latin America and Europe.
+               Specialized in workflow automation, data migration, custom dashboards, and validation rules, helping companies streamline project management and decision-making. 
+               Acted as both Technical Consultant and Project Manager, delivering solutions on time while training and supporting users in English and Spanish.
             </p>
           </div>
 
@@ -102,8 +112,8 @@ export default function Experiences() {
           <div className="col-md-8 col-12" data-aos="fade-left" data-aos-delay="1350">
             <b>Intern - Marketing Web Developer</b>
             <p className="left">
-              Working as an Intern I was responsible for creating commercial responsive websites,
-              arts, banners, blog posts with SEO practices, and also competition analysis and research.
+              Marketing Web Developer Intern, responsible for building responsive commercial websites and creating visual assets (banners, arts, layouts) aligned with brand identity.
+                 Wrote SEO-optimized blog posts, improving visibility and engagement, and conducted competitive analysis to support marketing strategy.
             </p>
           </div>
         </div>

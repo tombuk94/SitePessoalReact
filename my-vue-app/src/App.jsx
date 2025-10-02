@@ -8,6 +8,7 @@ import Contact from './components/Contact.jsx';
 import Menu from './components/Menu.jsx';
 import MenuMobile from './components/MenuMobile.jsx';
 import StickyMenu from './components/StickyMenu.jsx';
+import IProjects from './components/IProjects.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
 import AOS from 'aos';
@@ -50,6 +51,7 @@ function App() {
       <Profile />
       <Experience />
       <Abilities />
+      <IProjects />
       <Projects />
       <Contact />      
     </>

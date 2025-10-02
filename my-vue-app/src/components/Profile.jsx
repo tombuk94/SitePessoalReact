@@ -13,16 +13,16 @@ export default function Profile() {
           <div className="col-md-4 col-12" data-aos="fade-right" data-aos-delay="400">
             <h3>About me</h3>
             <p>
-              I'm a{' '}
+              I'm a  {' '}
               <a
-                href="https://www.clarizen.com/"
+                href="https://www.planview.com/products-solutions/products/adaptivework/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: '#159fdd', fontWeight: 'bold' }}
               >
-                Clarizen
+                Planview AdaptiveWork (formerly Clarizen)
               </a>{' '}
-              expert with a strong background in project management automation and custom workflows. I’ve led complex implementations across Latin America, helping companies optimize their project delivery processes.
+              expert with a strong background in project management automation, custom workflows, data migration and support . I’ve led complex implementations across Latin America and Europe, helping companies optimize their project delivery processes.
             </p>
             <p>
               I'm also a creative and resourceful front-end web developer, passionate about building clean, functional, and visually engaging websites. Currently expanding my skills in back-end development to become a full-stack developer — with a particular interest in AI and modern JavaScript frameworks.

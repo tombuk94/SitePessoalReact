@@ -3,7 +3,7 @@ import React from 'react';
 export default function Projects() {
   return (
     <section id="projects">
-      <h1 data-aos="fade-down">Projects</h1>
+      <h1 data-aos="fade-down">Web Projects</h1>
 
       <p data-aos="fade-in">
         “You can do anything you set your mind to.”<br />

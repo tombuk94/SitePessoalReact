@@ -8,7 +8,7 @@ export default function Header() {
       <hr data-aos="zoom-in" data-aos-delay="800" />
 
       <h2 data-aos="fade-up" data-aos-delay="1000">
-        personal site
+        Front-end Developer | Project Management & Automation
       </h2>
 
       <a href="#profile" className="seta-baixo" >
