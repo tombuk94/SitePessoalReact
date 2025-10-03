@@ -60,6 +60,12 @@ export default function Profile() {
             <b>Linkedin</b><br />
               <a href='www.linkedin.com/in/tomasbukaraujo' target='blank'>www.linkedin.com/in/tomasbukaraujo</a>
             </p>
+             <p>
+            <b>CV</b><br/>
+              <a href='CV/curriculo_tomas_buk_pt.pdf' target='blank'><img src="imagens/brasil.webp" width = "30px"></img> Portuguese</a>
+              <br></br><br></br>
+              <a href='CV/curriculo_tomas_buk_en.pdf' target='blank'><img src="imagens/eng.jpg" width="30px"></img> English</a>
+            </p>          
           </div>
         </div>
       </div>

@@ -209,6 +209,9 @@ main{
     text-align:center;
 }
 
+#profile a{
+  text-decoration:none;
+}
 
 /* ////////////////////EXPERIENCES///////////////////// */
 #experiences{
