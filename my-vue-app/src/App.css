@@ -555,7 +555,120 @@ font-size:18px;
 
 
 
+.section {
+  background: #fff;
+  border-radius: 15px;
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.section-description {
+  margin-bottom: 30px;
+  color: #444;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fafafa;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin: 10px 0;
+}
+
+.card p {
+  color: #555;
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+}
+
+.card button {
+  background: #e60050;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background: #b4003c;
+}
 
 
+.card-icon{
+  font-size:40px;
+}
 
+
+/* //////////////////////PROJECT PHASES///////////////////// */
+
+.project-phases {
+  background: #fff;
+  border-radius: 15px;
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+.project-phases h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.project-phases h2 span {
+  color: #e60050; /* destaca "phases" */
+}
+
+.phases-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.phase {
+  display: flex;
+  align-items: center;
+  background: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.phase.highlight {
+  background: #e60050;
+  color: #fff;
+}
+
+.phase-icon {
+  font-size: 1.8rem;
+  margin-right: 15px;
+}
+
+.phase h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.phase p {
+  margin: 5px 0 0;
+  font-size: 0.95rem;
+}
 
